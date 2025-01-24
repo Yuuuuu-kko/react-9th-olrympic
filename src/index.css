@@ -76,3 +76,66 @@ button {
 button:hover {
   background-color: #ffd633;
 }
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background-color: #e6e6fa;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+th,
+td {
+  padding: 12px;
+  text-align: center;
+  border-bottom: 1px solid #ccc;
+}
+
+th {
+  background-color: #003580;
+  color: #fff;
+  font-weight: 700;
+}
+
+tr:nth-child(2n) {
+  background-color: #f4f4f9;
+}
+
+tr:hover {
+  background-color: #dcdcdc;
+}
+
+td {
+  vertical-align: middle;
+  color: #333;
+}
+
+td input[type="number"] {
+  width: 80px;
+  padding: 5px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  text-align: center;
+}
+
+td button {
+  background-color: #dc3545;
+  border: none;
+  padding: 5px 10px;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+td button:hover {
+  background-color: #c82333;
+}
+
+.no-data {
+  text-align: center;
+  color: #777;
+  font-size: 16px;
+  padding: 20px;
+}
